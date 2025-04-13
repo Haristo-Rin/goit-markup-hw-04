@@ -75,7 +75,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     position: relative;
-    color: #404bbf
+    color: #404bbf;
 }
 
 .a_header:hover{
@@ -248,6 +248,17 @@ address{
 
 .advant_li {
     width: calc((100%-72px)/4);
+}
+
+.advant_svg_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px
 }
 
 .advant_h-thre {
