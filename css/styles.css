@@ -112,6 +112,17 @@ img {
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    position: relative;
+    color: #404bbf;
+}
+
+.header_ul::after {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
 }
 
 .header_ul:hover{
@@ -140,7 +151,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     color: #434455;
 }
 
