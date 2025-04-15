@@ -240,6 +240,17 @@ address{
     width: calc((100%-72px)/4);
 }
 
+.advant_svg_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
 .advant_h-thre {
     margin-bottom: 8px;
     line-height: 1.2;
