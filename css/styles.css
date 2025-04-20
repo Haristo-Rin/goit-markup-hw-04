@@ -346,6 +346,7 @@ address{
 .oteam_social_li {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .oteam_social_a {
@@ -362,7 +363,7 @@ address{
     background-color: #404bbf;
 }
 
-.oteam_social_a:active {
+.oteam_social_a:focus {
     background-color: #404bbf;
 }
 
