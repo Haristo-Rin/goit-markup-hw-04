@@ -103,6 +103,10 @@ img {
     color: #404bbf;
 }
 
+.ul_header:first-child {
+    color: #404bbf;
+}
+
 .header_ul{
     font-weight: 500;
     font-style: 16px;
@@ -124,7 +128,7 @@ img {
     bottom: -1px;
     height: 4px;
     border-radius: 2px;
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .header_ul:hover{
