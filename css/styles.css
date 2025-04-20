@@ -103,6 +103,11 @@ img {
     color: #404bbf;
 }
 
+.ul_header::after{
+    content: "";
+    width: 100%;
+}
+
 .header_ul{
     font-weight: 500;
     font-style: 16px;
