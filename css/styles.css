@@ -456,6 +456,12 @@ address{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.oportfolio_img_p:hover {
+    transform: translateY(100%);
+}
+
+
+
 .oportfolio_div_inul {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -491,6 +497,7 @@ address{
 
 .foot_div {
     display: flex;
+    align-items: baseline;
 }
 
 .foot_div_one {
@@ -544,6 +551,7 @@ address{
 .foot_social_li {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot_social_a {
