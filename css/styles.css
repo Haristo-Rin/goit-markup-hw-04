@@ -145,7 +145,7 @@ img {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;
 }
 
 .ul_address {
@@ -462,7 +462,7 @@ address{
 }
 
 .oportfolio_li:hover.oportfolio_img_p {
-    transform: translateY(100%);
+    transform: translateY(0%);
 }
 
 
