@@ -462,7 +462,7 @@ address{
 }
 
 .oportfolio_li:hover.oportfolio_img_p {
-    transform: translateY(100%);
+    transform: translateY(0%);
 }
 
 
