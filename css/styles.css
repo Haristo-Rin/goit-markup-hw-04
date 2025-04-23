@@ -446,7 +446,7 @@ address{
     overflow: hidden;
 }
 
-.oportfolio_li:hover.oportfolio_img_p {
+.oportfolio_img_p {
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -457,13 +457,13 @@ address{
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
-    transform: translateY(100%);
+    transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .oportfolio_li:hover.oportfolio_img_p {
+.oportfolio_li:hover.oportfolio_img_p {
     transform: translateY(0%);
-} */
+}
 
 
 
@@ -534,6 +534,9 @@ address{
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--cloud);
+}
+
+.foot_div_two {
 }
 
 .p_foot_two {
